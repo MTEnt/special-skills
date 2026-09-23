@@ -18,7 +18,7 @@
     ],
     "PostToolUse": [
       {
-        "matcher": ".*",
+        "matcher": "Edit|Write|MultiEdit|NotebookEdit|apply_patch|Bash|[Ss]hell|[Ee]xec|[Cc]ommand|[Tt]erminal",
         "hooks": [
           {
             "type": "command",

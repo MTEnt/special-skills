@@ -14,7 +14,7 @@
       "source": "./plugins/cleancoding",
       "displayName": "Clean Coding",
       "description": "Evidence-backed engineering discipline: acceptance contracts, root-cause fixes, a hook-enforced verification gate, and the shared three-loop stop rule.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "category": "productivity",
       "keywords": [
         "engineering",
@@ -32,7 +32,7 @@
       "source": "./plugins/anti-loop",
       "displayName": "Anti Loop",
       "description": "Keeps coding work scoped to the requested outcome and enforces the shared three-loop stop rule with a stateful PostToolUse hook.",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "category": "productivity",
       "keywords": [
         "scope-control",

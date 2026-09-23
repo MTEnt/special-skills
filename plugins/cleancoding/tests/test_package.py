@@ -54,6 +54,16 @@ class PackageTests(unittest.TestCase):
                     self.assertIn("verification_gate.py", hook["command"])
                     self.assertIn("verification_gate.py", hook["commandWindows"])
 
+    def test_post_tool_use_matcher_skips_read_only_tools(self) -> None:
+        config = json.loads((ROOT / "hooks" / "hooks.json").read_text(encoding="utf-8"))
+        matcher = re.compile(config["hooks"]["PostToolUse"][0]["matcher"])
+        for tool in ("Edit", "Write", "MultiEdit", "NotebookEdit", "apply_patch", "Bash", "shell", "exec_command"):
+            with self.subTest(tool=tool):
+                self.assertTrue(matcher.search(tool))
+        for tool in ("Read", "Grep", "Glob", "WebFetch", "Agent"):
+            with self.subTest(tool=tool):
+                self.assertIsNone(matcher.search(tool))
+
 
 if __name__ == "__main__":
     unittest.main()

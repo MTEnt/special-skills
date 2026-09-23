@@ -3,7 +3,7 @@ name: anti-loop
 description: Keep coding and planning tasks scoped to the requested outcome, prevent unrequested architecture or process growth, and stop repeated failed attempts with the shared three-loop rule. Use when implementing, refactoring, debugging, planning repository changes, or modifying agent workflows. Do not use to reject complexity the user explicitly requested or that a demonstrated safety or correctness risk requires.
 license: MIT
 metadata:
-  version: "0.3.1"
+  version: "0.3.2"
   author: MTEnt
 ---
 

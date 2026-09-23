@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.2 - 2026-09-23
+
+- Narrowed the `PostToolUse` loop-counter matcher from every tool to mutating tools and shell tools only. The counter ignored read-only tools anyway, so behavior is unchanged and the hook no longer runs on every `Read`, `Grep`, or `Glob` call.
+
 ## 0.3.1 - 2026-09-23
 
 - Updated repository links and installation instructions for the Special Skills marketplace (`special-skills`).

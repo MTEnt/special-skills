@@ -1,7 +1,7 @@
 {
   "name": "anti-loop",
   "displayName": "Anti Loop",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Keeps coding work scoped to the requested outcome and enforces the shared three-loop stop rule with a stateful PostToolUse hook.",
   "author": {
     "name": "MTEnt",

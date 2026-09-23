@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2 - 2026-09-23
+
+- Narrowed the `PostToolUse` hook matcher from every tool to mutating tools and shell tools only. The gate classified read-only tools as neutral anyway, so behavior is unchanged and the hook no longer runs on every `Read`, `Grep`, or `Glob` call.
+
 ## 1.0.1 - 2026-09-23
 
 - Updated repository links and installation instructions for the Special Skills marketplace (`special-skills`).

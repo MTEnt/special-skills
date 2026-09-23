@@ -28,7 +28,7 @@ class PackageTests(unittest.TestCase):
     def test_manifest_identity_and_component_path(self) -> None:
         manifest = json.loads((ROOT / ".codex-plugin" / "plugin.json").read_text())
         self.assertEqual(manifest["name"], "anti-loop")
-        self.assertEqual(manifest["version"].split("+", 1)[0], "0.3.1")
+        self.assertEqual(manifest["version"].split("+", 1)[0], "0.3.2")
         self.assertEqual(manifest["author"]["name"], "MTEnt")
         self.assertEqual(manifest["skills"], "./skills/")
         self.assertNotIn("hooks", manifest)
@@ -46,6 +46,17 @@ class PackageTests(unittest.TestCase):
         self.assertIn("<!-- contract:loop-limit:start -->", skill)
         self.assertIn("LOOP LIMIT REACHED", skill)
         self.assertNotIn("ANTI LOOP STOPPED THIS ATTEMPT", skill)
+
+    def test_post_tool_use_matcher_skips_read_only_tools(self) -> None:
+        import re
+        config = json.loads((ROOT / "hooks" / "hooks.json").read_text())
+        matcher = re.compile(config["hooks"]["PostToolUse"][0]["matcher"])
+        for tool in ("Edit", "Write", "MultiEdit", "apply_patch", "Bash", "shell", "exec_command"):
+            with self.subTest(tool=tool):
+                self.assertTrue(matcher.search(tool))
+        for tool in ("Read", "Grep", "Glob", "WebFetch", "Agent"):
+            with self.subTest(tool=tool):
+                self.assertIsNone(matcher.search(tool))
 
 
 if __name__ == "__main__":
