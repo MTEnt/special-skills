@@ -2,6 +2,10 @@
 
 Selects, designs, compiles, audits, diagnoses, optimizes, and evolves executable prompt, workflow, and agent graphs as explicit, versioned artifacts with typed state, bounded runtime semantics, security controls, and evaluation.
 
+**Scope.** This is graph engineering in the execution-graph sense: nodes that do work, edges that constrain transitions, state that coordinates the run, and authority boundaries around each step. The `select` mode starts by asking whether a graph is justified at all and returns `no_graph` when deterministic code, one model call, or a bounded loop is enough. Knowledge graphs, GraphRAG, graph databases, and graph-ML prompting are out of scope by design; the skill says so and does not force those requests into this workflow.
+
+Compile targets are framework-neutral: a GraphSpec maps to LangGraph, AutoGen GraphFlow, Google ADK, Microsoft Agent Framework, the OpenAI Agents SDK, the Claude Code `Workflow` tool, or a code-first harness. See `references/framework-mappings.md` for the verified mappings and their verification date.
+
 ## Package contents
 
 | Path | Purpose |
