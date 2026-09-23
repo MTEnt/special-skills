@@ -19,7 +19,7 @@ chat can prepare proposals; execution requires a host with the relevant tools.
 
 The repository marketplace entries package this same core for Claude Code and
 Codex. Once this revision is published to the configured marketplace, install
-`ai-native-sdlc@speshul-skills` using that host's plugin installer. A local checkout
+`ai-native-sdlc@special-skills` using that host's plugin installer. A local checkout
 is not evidence that the published marketplace already contains this package.
 
 ## Permissions and limits

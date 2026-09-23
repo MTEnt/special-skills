@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/MTEnt/speshul-skills/contracts/task-contract.schema.json",
+  "$id": "https://github.com/MTEnt/special-skills/contracts/task-contract.schema.json",
   "title": "TaskContract",
-  "description": "Shared shape for the acceptance contract, task anchor, and budget that speshul-skills packages derive before substantive work.",
+  "description": "Shared shape for the acceptance contract, task anchor, and budget that special-skills packages derive before substantive work.",
   "type": "object",
   "additionalProperties": false,
   "required": ["task_type", "outcome", "acceptance_checks", "stop_condition"],

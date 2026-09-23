@@ -24,7 +24,7 @@ from typing import Any
 
 LOOP_LIMIT = 3
 TTL_SECONDS = 24 * 60 * 60
-DEFAULT_DB_PATH = Path(tempfile.gettempdir()) / "speshul-anti-loop" / "state.sqlite3"
+DEFAULT_DB_PATH = Path(tempfile.gettempdir()) / "special-anti-loop" / "state.sqlite3"
 MUTATING_TOOLS = {"edit", "write", "multiedit", "notebookedit", "apply_patch", "applypatch"}
 SHELL_TOOL_HINTS = ("bash", "shell", "exec", "command", "terminal")
 VERIFICATION_PATTERNS = (

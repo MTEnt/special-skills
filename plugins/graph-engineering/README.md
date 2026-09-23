@@ -14,9 +14,9 @@ Selects, designs, compiles, audits, diagnoses, optimizes, and evolves executable
 
 ## Install
 
-Claude Code: `/plugin marketplace add MTEnt/speshul-skills` then `/plugin install graph-engineering@speshul-skills`.
+Claude Code: `/plugin marketplace add MTEnt/special-skills` then `/plugin install graph-engineering@special-skills`.
 
-Codex: `codex plugin marketplace add MTEnt/speshul-skills` then `codex plugin add graph-engineering@speshul-skills`.
+Codex: `codex plugin marketplace add MTEnt/special-skills` then `codex plugin add graph-engineering@special-skills`.
 
 ## Verify
 

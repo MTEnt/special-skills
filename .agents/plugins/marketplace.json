@@ -1,7 +1,7 @@
 {
-  "name": "speshul-skills",
+  "name": "special-skills",
   "interface": {
-    "displayName": "Speshul Skills"
+    "displayName": "Special Skills"
   },
   "plugins": [
     {

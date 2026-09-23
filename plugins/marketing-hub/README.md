@@ -31,15 +31,15 @@ Design commitments that every skill honors:
 Claude Code:
 
 ```text
-/plugin marketplace add MTEnt/speshul-skills
-/plugin install marketing-hub@speshul-skills
+/plugin marketplace add MTEnt/special-skills
+/plugin install marketing-hub@special-skills
 ```
 
 Codex:
 
 ```text
-codex plugin marketplace add MTEnt/speshul-skills
-codex plugin add marketing-hub@speshul-skills
+codex plugin marketplace add MTEnt/special-skills
+codex plugin add marketing-hub@special-skills
 ```
 
 Individual skills can be copied from `skills/<name>/`; each is self-contained apart from the shared truth file convention.

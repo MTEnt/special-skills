@@ -14,7 +14,7 @@ Reviewed 2026-09-07. These links provide provenance, not runtime dependencies.
 - Anthropic, [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents):
   choose simpler implementations where they meet the need. Its tooling examples
   are dated; this package does not copy them as current integration instructions.
-- MTEnt, [Graph Engineering v2.1.0](https://github.com/MTEnt/speshul-skills/tree/8c5e725a94fd6d0cb1d1e44f8ffe05cff7d9f35f/plugins/graph-engineering):
+- MTEnt, [Graph Engineering v2.1.0](https://github.com/MTEnt/special-skills/tree/8c5e725a94fd6d0cb1d1e44f8ffe05cff7d9f35f/plugins/graph-engineering):
   scope boundaries, capability-aware coordination, evaluation, and recovery
   inform the optional relationship with executable workflows.
 

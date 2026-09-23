@@ -22,15 +22,15 @@ Package files:
 Claude Code:
 
 ```text
-/plugin marketplace add MTEnt/speshul-skills
-/plugin install anti-loop@speshul-skills
+/plugin marketplace add MTEnt/special-skills
+/plugin install anti-loop@special-skills
 ```
 
 Codex:
 
 ```text
-codex plugin marketplace add MTEnt/speshul-skills
-codex plugin add anti-loop@speshul-skills
+codex plugin marketplace add MTEnt/special-skills
+codex plugin add anti-loop@special-skills
 ```
 
 Start a new conversation after installation. Review the hook definitions before trusting them (`/hooks` in Codex). Both hooks are advisory: they add context and visible warnings but never block a tool.

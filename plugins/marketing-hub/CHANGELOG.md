@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.1 - 2026-09-23
+
+- Updated repository links and installation instructions for the Special Skills marketplace (`special-skills`).
+- Renamed the HTTP client User-Agent to `special-marketing-api/1.0`; retained the legacy plugin-name migration alias.
+
 ## 2.0.0 - 2026-09-05
 
 - Redesigned the taxonomy from 64 channel-named skills and 13 routers into one orchestrator plus 43 specialists organized by the decision each answers (Evidence, Decision, Make, Convert, Reach, Discover, Measure, Operate).

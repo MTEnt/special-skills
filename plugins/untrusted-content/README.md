@@ -13,9 +13,9 @@ It generalizes the trust-boundary rules that `graph-engineering` applies to work
 
 ## Install
 
-Claude Code: `/plugin marketplace add MTEnt/speshul-skills` then `/plugin install untrusted-content@speshul-skills`.
+Claude Code: `/plugin marketplace add MTEnt/special-skills` then `/plugin install untrusted-content@special-skills`.
 
-Codex: `codex plugin marketplace add MTEnt/speshul-skills` then `codex plugin add untrusted-content@speshul-skills`.
+Codex: `codex plugin marketplace add MTEnt/special-skills` then `codex plugin add untrusted-content@special-skills`.
 
 The skill has no hooks, scripts, or network access. It changes how the agent reads; it does not read anything itself.
 

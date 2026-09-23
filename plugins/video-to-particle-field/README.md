@@ -13,9 +13,9 @@ Turns video, images, and short scene clips into a dense live particle or ASCII f
 
 ## Install
 
-Claude Code: `/plugin marketplace add MTEnt/speshul-skills` then `/plugin install video-to-particle-field@speshul-skills`.
+Claude Code: `/plugin marketplace add MTEnt/special-skills` then `/plugin install video-to-particle-field@special-skills`.
 
-Codex: `codex plugin marketplace add MTEnt/speshul-skills` then `codex plugin add video-to-particle-field@speshul-skills`.
+Codex: `codex plugin marketplace add MTEnt/special-skills` then `codex plugin add video-to-particle-field@special-skills`.
 
 Standalone: copy `skills/video-to-particle-field/` into your runtime's skills directory.
 

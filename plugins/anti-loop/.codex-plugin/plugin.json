@@ -1,12 +1,12 @@
 {
   "name": "anti-loop",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Keeps coding work scoped to the requested outcome and enforces the shared three-loop stop rule with a stateful PostToolUse hook.",
   "author": {
     "name": "MTEnt"
   },
-  "homepage": "https://github.com/MTEnt/speshul-skills",
-  "repository": "https://github.com/MTEnt/speshul-skills",
+  "homepage": "https://github.com/MTEnt/special-skills",
+  "repository": "https://github.com/MTEnt/special-skills",
   "license": "MIT",
   "keywords": [
     "scope-control",

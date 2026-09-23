@@ -131,7 +131,7 @@ def build_request(args: argparse.Namespace, include_credentials: bool) -> tuple[
         payload = json.dumps(body, separators=(",", ":")).encode("utf-8")
         headers.setdefault("Content-Type", "application/json")
     headers.setdefault("Accept", "application/json")
-    headers.setdefault("User-Agent", "speshul-marketing-api/1.0")
+    headers.setdefault("User-Agent", "special-marketing-api/1.0")
 
     preview = {
         "method": args.method,

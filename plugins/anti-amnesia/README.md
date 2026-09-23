@@ -13,15 +13,15 @@ Anti Amnesia answers "what did you just do?" from the recorded session instead o
 Claude Code:
 
 ```text
-/plugin marketplace add MTEnt/speshul-skills
-/plugin install anti-amnesia@speshul-skills
+/plugin marketplace add MTEnt/special-skills
+/plugin install anti-amnesia@special-skills
 ```
 
 Codex:
 
 ```text
-codex plugin marketplace add MTEnt/speshul-skills
-codex plugin add anti-amnesia@speshul-skills
+codex plugin marketplace add MTEnt/special-skills
+codex plugin add anti-amnesia@special-skills
 ```
 
 The hook is stateless, reads nothing from disk, and fails open on malformed input.

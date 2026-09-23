@@ -15,9 +15,9 @@ Writes and audits agent skills and plugins to the standards this repository uses
 
 ## Install
 
-Claude Code: `/plugin marketplace add MTEnt/speshul-skills` then `/plugin install skill-authoring@speshul-skills`.
+Claude Code: `/plugin marketplace add MTEnt/special-skills` then `/plugin install skill-authoring@special-skills`.
 
-Codex: `codex plugin marketplace add MTEnt/speshul-skills` then `codex plugin add skill-authoring@speshul-skills`.
+Codex: `codex plugin marketplace add MTEnt/special-skills` then `codex plugin add skill-authoring@special-skills`.
 
 ## Use the linter directly
 

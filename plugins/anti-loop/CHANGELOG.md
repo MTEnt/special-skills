@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.1 - 2026-09-23
+
+- Updated repository links and installation instructions for the Special Skills marketplace (`special-skills`).
+- Renamed the default temporary-state directory to `special-anti-loop`; start a new conversation after updating. Existing temporary state is not migrated.
+
 ## 0.3.0 - 2026-09-05
 
 - Replaced the package-specific three-attempt rule and `ANTI LOOP STOPPED THIS ATTEMPT` receipt with the shared repeated-attempt stop rule from `contracts/loop-limit.md`; the receipt is now `LOOP LIMIT REACHED` everywhere.

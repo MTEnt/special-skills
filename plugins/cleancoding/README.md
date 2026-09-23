@@ -17,15 +17,15 @@ Evidence-backed engineering discipline for coding agents: task contracts before 
 Claude Code:
 
 ```text
-/plugin marketplace add MTEnt/speshul-skills
-/plugin install cleancoding@speshul-skills
+/plugin marketplace add MTEnt/special-skills
+/plugin install cleancoding@special-skills
 ```
 
 Codex:
 
 ```text
-codex plugin marketplace add MTEnt/speshul-skills
-codex plugin add cleancoding@speshul-skills
+codex plugin marketplace add MTEnt/special-skills
+codex plugin add cleancoding@special-skills
 ```
 
 Standalone: copy `skills/cleancoding/` into your runtime's skills directory. The stop rule and receipt still apply; only the hook enforcement is lost.

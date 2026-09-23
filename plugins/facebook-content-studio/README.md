@@ -14,9 +14,9 @@ Researches, plans, continuity-checks, packages, previews, and publishes Facebook
 
 ## Install
 
-Claude Code: `/plugin marketplace add MTEnt/speshul-skills` then `/plugin install facebook-content-studio@speshul-skills`.
+Claude Code: `/plugin marketplace add MTEnt/special-skills` then `/plugin install facebook-content-studio@special-skills`.
 
-Codex: `codex plugin marketplace add MTEnt/speshul-skills` then `codex plugin add facebook-content-studio@speshul-skills`.
+Codex: `codex plugin marketplace add MTEnt/special-skills` then `codex plugin add facebook-content-studio@special-skills`.
 
 Publishing requires the separately installed `facebook-pages-mcp` server from this repository with its own credentials. Video publication remains a documented manual handoff.
 

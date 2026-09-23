@@ -3,7 +3,7 @@ name: tool-connectors
 description: Select, inspect, connect, and operate marketing systems through their APIs, SDKs, CLIs, MCP servers, exports, webhooks, and automation platforms: capability-first tool selection, credential boundaries, read and mutation contracts, dry runs, retries and reconciliation, and verification of external state, with a bounded provider-neutral HTTP client. Use when marketing work needs a specific analytics, ads, CRM, messaging, search, billing, social, content, or data system.
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

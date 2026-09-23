@@ -20,15 +20,15 @@ Clock signals request reassessment. They do not cancel tools and do not independ
 Claude Code:
 
 ```text
-/plugin marketplace add MTEnt/speshul-skills
-/plugin install temporal-tasks@speshul-skills
+/plugin marketplace add MTEnt/special-skills
+/plugin install temporal-tasks@special-skills
 ```
 
 Codex:
 
 ```text
-codex plugin marketplace add MTEnt/speshul-skills
-codex plugin add temporal-tasks@speshul-skills
+codex plugin marketplace add MTEnt/special-skills
+codex plugin add temporal-tasks@special-skills
 ```
 
 Start a new Codex conversation after installation so the bundled skill and hooks are discovered.

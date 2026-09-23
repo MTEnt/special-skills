@@ -1,8 +1,8 @@
-# Speshul Skills
+# Special Skills
 
-**Odd name. Serious tools for AI-assisted work.**
+**Tools for AI-assisted work.**
 
-Speshul Skills is a maintained collection of agent plugins for Claude Code and Codex. Every package here is built to make agent behavior more reliable, bounded, inspectable, or repeatable, and every claim of that kind is backed by something you can run: a hook, a validator, a test, or an eval.
+Special Skills is a maintained collection of agent plugins for Claude Code and Codex. Every package here is built to make agent behavior more reliable, bounded, inspectable, or repeatable, and every claim of that kind is backed by something you can run: a hook, a validator, a test, or an eval.
 
 ## Install
 
@@ -11,18 +11,30 @@ Add the marketplace once, then install what you need.
 Claude Code:
 
 ```text
-/plugin marketplace add MTEnt/speshul-skills
-/plugin install cleancoding@speshul-skills
+/plugin marketplace add MTEnt/special-skills
+/plugin install cleancoding@special-skills
 ```
 
 Codex:
 
 ```text
-codex plugin marketplace add MTEnt/speshul-skills
-codex plugin add cleancoding@speshul-skills
+codex plugin marketplace add MTEnt/special-skills
+codex plugin add cleancoding@special-skills
 ```
 
 Every plugin installs the same way; substitute the name from the tables below. Plugins that ship lifecycle hooks say so in their README; review a hook before trusting it (`/hooks` in Codex). Start a new conversation after installing.
+
+### Updating an existing installation
+
+The marketplace is now named `special-skills`. Before replacing an old registration, note which plugins you installed and their installation scopes. Use the steps below once the rename is available on `main`.
+
+Claude Code: remove the former marketplace with `/plugin marketplace remove speshul-skills`, then run the new marketplace and plugin install commands above for each plugin you want. [Removing a marketplace also uninstalls its plugins](https://code.claude.com/docs/en/discover-plugins#manage-marketplaces); reinstall in the same user, project, or local scope.
+
+Codex: run `codex plugin list --marketplace speshul-skills` to review the old plugins. For each installed plugin, run `codex plugin remove PLUGIN@speshul-skills` (replace `PLUGIN` with its name), then remove the old registration with `codex plugin marketplace remove speshul-skills`. Add the new marketplace and reinstall the plugins you want using `@special-skills` as shown above.
+
+Update any project or managed settings that explicitly reference the old marketplace, including Claude Code's `extraKnownMarketplaces`, `enabledPlugins`, and `pluginConfigs`. Keep only the intended installation of each plugin enabled.
+
+Start a new conversation after updating. Anti Loop and CleanCoding now use `special-` temporary-state directories; existing temporary state is not migrated.
 
 ## Packages
 

@@ -55,7 +55,7 @@ def _state_dir(override: str | os.PathLike[str] | None) -> Path:
     if override is not None:
         return Path(override)
     configured = os.environ.get("CLEANCODING_STATE_DIR")
-    return Path(configured) if configured else Path(tempfile.gettempdir()) / "speshul-cleancoding"
+    return Path(configured) if configured else Path(tempfile.gettempdir()) / "special-cleancoding"
 
 
 def _state_path(session_id: str, override: str | os.PathLike[str] | None) -> Path:

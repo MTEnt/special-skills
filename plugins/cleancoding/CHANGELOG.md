@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 - 2026-09-23
+
+- Updated repository links and installation instructions for the Special Skills marketplace (`special-skills`).
+- Renamed the default temporary-state directory to `special-cleancoding`; start a new conversation after updating. Existing temporary state is not migrated.
+
 ## 1.0.0 - 2026-09-05
 
 - Moved to the plugin layout (`skills/cleancoding/`) so both Claude Code and Codex install it from the repository marketplace.

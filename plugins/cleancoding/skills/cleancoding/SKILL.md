@@ -3,7 +3,7 @@ name: cleancoding
 description: Evidence-backed engineering for implementing, debugging, refactoring, and reviewing code or configuration. Use when changing code; defining acceptance criteria; fixing a defect at its root cause instead of a symptom; protecting contracts, trust boundaries, state, or error integrity; or deciding how much design, testing, documentation, performance work, or rollout care a change needs. Applies DRY, KISS, and YAGNI, the shared three-loop stop rule, and a receipt-based completion gate.
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   author: MTEnt
 ---
 

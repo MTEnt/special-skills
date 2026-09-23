@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate every package in the speshul-skills repository.
+"""Validate every package in the special-skills repository.
 
 Skill-level rules (frontmatter, name, description, metadata.version, size budget,
 links, agents/openai.yaml, description overlap) are owned by the skill-authoring
