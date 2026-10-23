@@ -1,9 +1,9 @@
 ---
 name: press-kit
-description: Plan and produce earned-media work: story angles, journalist and outlet research, pitches, press releases and announcements, press pages and media kits, news and press-request responses, contributed articles, and podcast-guest preparation. Use for public relations and press; use launch-runbook for the release itself and organic-social for owned channels.
+description: "Plan and produce earned-media work: story angles, journalist and outlet research, pitches, press releases and announcements, press pages and media kits, news and press-request responses, contributed articles, and podcast-guest preparation. Use for public relations and press; use launch-runbook for the release itself and organic-social for owned channels."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 - 2026-10-23
+
+- Remove the redundant Claude hook manifest reference; keep automatic hooks/hooks.json discovery.
+
 ## 0.2.0 - 2026-09-05
 
 - Runs on Claude Code as well as Codex: `prompt_id` is accepted as the turn identifier, a session without one is tracked as a single turn, and hook commands resolve `python` or `python3` through `${CLAUDE_PLUGIN_ROOT}`.

@@ -1,9 +1,9 @@
 ---
 name: copy-review
-description: Review, edit, tighten, fact-check, proofread, or refresh existing marketing copy while preserving intentional voice: truth pass, audience and offer fit, hierarchy, credibility, clarity, rhythm, and interface correctness, delivered as clean copy, redlines, or a prioritized issue list. Use for copy feedback, wordy or dated pages, claim checks, and content refreshes; use page-copy when a new draft or strategy is needed.
+description: "Review, edit, tighten, fact-check, proofread, or refresh existing marketing copy while preserving intentional voice: truth pass, audience and offer fit, hierarchy, credibility, clarity, rhythm, and interface correctness, delivered as clean copy, redlines, or a prioritized issue list. Use for copy feedback, wordy or dated pages, claim checks, and content refreshes; use page-copy when a new draft or strategy is needed."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

@@ -1,9 +1,9 @@
 ---
 name: positioning-and-offer
-description: Decide how the product is framed and what exactly is exchanged: category and competitive frame, differentiated capability and reason to believe, the qualifying customer, and the complete offer with scope, delivery, price structure, guarantees, bonuses, risk allocation, and truthful urgency. Use for positioning decisions, offer design or repair, and direct-response, service, course, or high-ticket offers; use pricing-and-packaging for price levels, tiers, and value metrics.
+description: "Decide how the product is framed and what exactly is exchanged: category and competitive frame, differentiated capability and reason to believe, the qualifying customer, and the complete offer with scope, delivery, price structure, guarantees, bonuses, risk allocation, and truthful urgency. Use for positioning decisions, offer design or repair, and direct-response, service, course, or high-ticket offers; use pricing-and-packaging for price levels, tiers, and value metrics."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

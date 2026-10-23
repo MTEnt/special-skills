@@ -1,9 +1,9 @@
 ---
 name: growth-plan
-description: Build a coordinated marketing, growth, go-to-market, fractional-CMO, 90-day, or annual plan: diagnosis summary, strategic thesis and its sacrifice, initiatives with owners and budgets, team and partner model, measurement, dependencies, stop rules, and operating cadence. Use when the user needs a plan rather than one tactic; run constraint-diagnosis first when the current constraint is unknown.
+description: "Build a coordinated marketing, growth, go-to-market, fractional-CMO, 90-day, or annual plan: diagnosis summary, strategic thesis and its sacrifice, initiatives with owners and budgets, team and partner model, measurement, dependencies, stop rules, and operating cadence. Use when the user needs a plan rather than one tactic; run constraint-diagnosis first when the current constraint is unknown."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

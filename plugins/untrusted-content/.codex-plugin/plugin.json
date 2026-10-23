@@ -1,6 +1,6 @@
 {
   "name": "untrusted-content",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Handles web pages, files, tool output, and inter-agent messages as data rather than instructions, with injection triage and a bounded escalation path.",
   "author": {
     "name": "MTEnt"

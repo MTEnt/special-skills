@@ -1,9 +1,9 @@
 ---
 name: credit-and-lift
-description: Choose, interpret, implement, and reconcile how marketing credit is assigned and whether it caused anything: first and last touch, multi-touch, self-reported source, platform reporting, first-party capture, cohort payback, incrementality tests, and media-mix methods, with a table of what each system is designed to answer. Use when dashboards disagree or the business needs to know what drives revenue; use tracking-plan to fix the underlying event data.
+description: "Choose, interpret, implement, and reconcile how marketing credit is assigned and whether it caused anything: first and last touch, multi-touch, self-reported source, platform reporting, first-party capture, cohort payback, incrementality tests, and media-mix methods, with a table of what each system is designed to answer. Use when dashboards disagree or the business needs to know what drives revenue; use tracking-plan to fix the underlying event data."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

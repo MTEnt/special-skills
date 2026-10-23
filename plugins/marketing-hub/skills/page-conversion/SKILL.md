@@ -1,9 +1,9 @@
 ---
 name: page-conversion
-description: Audit and repair conversion on marketing pages, lead and contact forms, and the overlays attached to them: message match, offer clarity, proof placement, form fields and errors, popups, sticky bars, slide-ins, and exit interventions, with instrumentation and an experiment-ready hypothesis. Use for weak page conversion, form abandonment, or URL-based conversion reviews; use activation-path for account creation and onboarding, and upgrade-moments for in-product paywalls.
+description: "Audit and repair conversion on marketing pages, lead and contact forms, and the overlays attached to them: message match, offer clarity, proof placement, form fields and errors, popups, sticky bars, slide-ins, and exit interventions, with instrumentation and an experiment-ready hypothesis. Use for weak page conversion, form abandonment, or URL-based conversion reviews; use activation-path for account creation and onboarding, and upgrade-moments for in-product paywalls."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

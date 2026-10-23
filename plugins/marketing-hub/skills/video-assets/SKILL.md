@@ -1,9 +1,9 @@
 ---
 name: video-assets
-description: Plan, script, storyboard, generate, capture, edit, render, caption, and package marketing video: product demos, explainers, programmatic and generative video, avatars, short-form clips, motion graphics, and repeatable production pipelines. Use when the deliverable moves; use visual-assets for stills and organic-social for the post that carries the clip.
+description: "Plan, script, storyboard, generate, capture, edit, render, caption, and package marketing video: product demos, explainers, programmatic and generative video, avatars, short-form clips, motion graphics, and repeatable production pipelines. Use when the deliverable moves; use visual-assets for stills and organic-social for the post that carries the clip."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

@@ -1,9 +1,9 @@
 ---
 name: customer-evidence
-description: Plan, run, or synthesize customer research: interviews, surveys, call and support transcripts, reviews, public communities, jobs-to-be-done, segments, a customer-language library, and evidence-grounded personas. Use when a positioning, message, conversion, pricing, or retention decision needs what customers actually say and do; use truth-file to record the settled result.
+description: "Plan, run, or synthesize customer research: interviews, surveys, call and support transcripts, reviews, public communities, jobs-to-be-done, segments, a customer-language library, and evidence-grounded personas. Use when a positioning, message, conversion, pricing, or retention decision needs what customers actually say and do; use truth-file to record the settled result."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

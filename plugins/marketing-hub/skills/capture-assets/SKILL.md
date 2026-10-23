@@ -1,9 +1,9 @@
 ---
 name: capture-assets
-description: Plan, build, and deliver the useful things an audience receives in exchange for attention or permission: downloadable guides, checklists, templates, workbooks, reports, swipe files, content upgrades, and interactive free tools such as calculators, graders, generators, validators, and sandboxes. Use for lead magnets, engineering-as-marketing, and tool-led lead generation; use content-engine for the surrounding editorial system.
+description: "Plan, build, and deliver the useful things an audience receives in exchange for attention or permission: downloadable guides, checklists, templates, workbooks, reports, swipe files, content upgrades, and interactive free tools such as calculators, graders, generators, validators, and sandboxes. Use for lead magnets, engineering-as-marketing, and tool-led lead generation; use content-engine for the surrounding editorial system."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

@@ -3,7 +3,7 @@ name: anti-amnesia
 description: Answer retrospective questions about immediately preceding work from the current conversation and tool record without needless re-execution, and close tool-using work with the shared handoff receipt. Use when the user asks what you just did, changed, ran, found, tested, or concluded. Do not use for requests to verify present state or investigate new changes.
 license: MIT
 metadata:
-  version: "0.2.0"
+  version: "0.2.1"
   author: MTEnt
 ---
 

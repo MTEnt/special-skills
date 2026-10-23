@@ -1,9 +1,9 @@
 ---
 name: lifecycle-messaging
-description: Design, write, audit, and optimize permissioned messages triggered by a recipient's state: welcome, onboarding, nurture, launch, newsletter, transactional, renewal, win-back, and recovery email, and consented SMS or MMS journeys with sender registration, quiet hours, and STOP handling. Use for automated flows, drip campaigns, segmentation, deliverability, and mobile messaging; use outbound-prospecting for unsolicited B2B outreach.
+description: "Design, write, audit, and optimize permissioned messages triggered by a recipient's state: welcome, onboarding, nurture, launch, newsletter, transactional, renewal, win-back, and recovery email, and consented SMS or MMS journeys with sender registration, quiet hours, and STOP handling. Use for automated flows, drip campaigns, segmentation, deliverability, and mobile messaging; use outbound-prospecting for unsolicited B2B outreach."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

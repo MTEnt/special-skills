@@ -1,9 +1,9 @@
 ---
 name: recurring-loops
-description: Turn a repeated marketing decision into a bounded, observable, interruptible loop: trigger and cadence, inputs and freshness, state and idempotency, decision rules, outputs, approval layers, limits, failure handling, dry run, monitoring, pause, and retirement, with a catalog of loop patterns across acquisition, paid, lifecycle, customer, partner, and revenue work. Use for scheduled reviews, campaign health, creative fatigue, content decay, churn watch, lead follow-up, and ranking alerts; not for a one-off task.
+description: "Turn a repeated marketing decision into a bounded, observable, interruptible loop: trigger and cadence, inputs and freshness, state and idempotency, decision rules, outputs, approval layers, limits, failure handling, dry run, monitoring, pause, and retirement, with a catalog of loop patterns across acquisition, paid, lifecycle, customer, partner, and revenue work. Use for scheduled reviews, campaign health, creative fatigue, content decay, churn watch, lead follow-up, and ranking alerts; not for a one-off task."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

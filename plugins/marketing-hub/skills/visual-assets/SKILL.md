@@ -1,9 +1,9 @@
 ---
 name: visual-assets
-description: Plan, generate, capture, design, optimize, and package marketing images: hero art, social graphics, product screenshots and mockups, banners, listing assets, OG previews, illustration, stock, and generative media, with alt text, rights, disclosure, and export variants. Use when the deliverable is a still image; use video-assets for motion and ad-units for paid creative.
+description: "Plan, generate, capture, design, optimize, and package marketing images: hero art, social graphics, product screenshots and mockups, banners, listing assets, OG previews, illustration, stock, and generative media, with alt text, rights, disclosure, and export variants. Use when the deliverable is a still image; use video-assets for motion and ad-units for paid creative."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

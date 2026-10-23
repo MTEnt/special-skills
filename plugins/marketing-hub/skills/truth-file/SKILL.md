@@ -1,9 +1,9 @@
 ---
 name: truth-file
-description: Create or update the shared marketing truth file: product truth, audience and buying situation, alternatives, positioning inputs, proof inventory, objections, voice rules, claim limits, and measurement baseline, each labeled by evidence state. Use at the start of marketing work or whenever downstream skills keep asking the same foundational questions; use customer-evidence to gather new customer research and alternatives-map to research competitors.
+description: "Create or update the shared marketing truth file: product truth, audience and buying situation, alternatives, positioning inputs, proof inventory, objections, voice rules, claim limits, and measurement baseline, each labeled by evidence state. Use at the start of marketing work or whenever downstream skills keep asking the same foundational questions; use customer-evidence to gather new customer research and alternatives-map to research competitors."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

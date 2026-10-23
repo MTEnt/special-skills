@@ -1,9 +1,9 @@
 ---
 name: experiment-design
-description: Design, size, implement, analyze, and govern controlled tests: A/B and multi-arm tests, holdouts, switchbacks, factorial and geo designs, with hypothesis records, sample and duration planning, guardrails, implementation QA, uncertainty reporting, and an experimentation backlog. Use for any decision between measurable alternatives; ships a sample-size script.
+description: "Design, size, implement, analyze, and govern controlled tests: A/B and multi-arm tests, holdouts, switchbacks, factorial and geo designs, with hypothesis records, sample and duration planning, guardrails, implementation QA, uncertainty reporting, and an experimentation backlog. Use for any decision between measurable alternatives; ships a sample-size script."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

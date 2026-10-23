@@ -38,7 +38,7 @@ Do not add a top-level `version` key; the specification puts version under `meta
 
 ## Manifests
 
-Both manifests carry the same `name` and `version`. `name` equals the directory name. The Codex manifest needs `description` and `skills: "./skills/"`. When the plugin has hooks, the Claude Code manifest points at them with `"hooks": "./hooks/hooks.json"`; Codex discovers that path by default.
+Both manifests carry the same `name` and `version`. `name` equals the directory name. The Codex manifest needs `description` and `skills: "./skills/"`. Both runtimes discover `hooks/hooks.json` automatically. Do not declare that default path in the Claude Code manifest; its `hooks` field is for additional hook files.
 
 ## Hooks that run on both runtimes
 

@@ -1,9 +1,9 @@
 ---
 name: outbound-prospecting
-description: Build source-backed prospect lists and write the relevant, lawful cold outreach that follows: account and contact discovery, demand signals, qualification, permitted data sources, CSV-ready handoff, then B2B cold-email sequences with truthful personalization, follow-up limits, reply routing, and deliverability boundaries. Use for target-account lists, lead research, and SDR sequences; use lifecycle-messaging for permissioned messaging and sales-kit for collateral.
+description: "Build source-backed prospect lists and write the relevant, lawful cold outreach that follows: account and contact discovery, demand signals, qualification, permitted data sources, CSV-ready handoff, then B2B cold-email sequences with truthful personalization, follow-up limits, reply routing, and deliverability boundaries. Use for target-account lists, lead research, and SDR sequences; use lifecycle-messaging for permissioned messaging and sales-kit for collateral."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

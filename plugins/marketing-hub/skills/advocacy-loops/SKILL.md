@@ -1,9 +1,9 @@
 ---
 name: advocacy-loops
-description: Design, launch, audit, and optimize the mechanisms by which customers bring in other customers: natural product sharing, refer-a-friend programs, affiliate and ambassador programs, invitation copy, reward and reversal logic, fraud controls, attribution, and word-of-mouth measurement. Use for referral, viral loop, and affiliate work; use creator-partnerships for paid outside voices.
+description: "Design, launch, audit, and optimize the mechanisms by which customers bring in other customers: natural product sharing, refer-a-friend programs, affiliate and ambassador programs, invitation copy, reward and reversal logic, fraud controls, attribution, and word-of-mouth measurement. Use for referral, viral loop, and affiliate work; use creator-partnerships for paid outside voices."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

@@ -1,9 +1,9 @@
 ---
 name: tactic-portfolio
-description: Generate, compare, and rank growth mechanisms into a small evidence-backed portfolio with idea cards: mechanism, prerequisites, first artifact, cost boundary, time to signal, measure, failure mode, and stop or scale rule. Use when the user is stuck, wants options, or needs a disciplined backlog; not for producing the chosen tactic itself.
+description: "Generate, compare, and rank growth mechanisms into a small evidence-backed portfolio with idea cards: mechanism, prerequisites, first artifact, cost boundary, time to signal, measure, failure mode, and stop or scale rule. Use when the user is stuck, wants options, or needs a disciplined backlog; not for producing the chosen tactic itself."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

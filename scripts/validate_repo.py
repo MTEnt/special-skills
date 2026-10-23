@@ -87,8 +87,12 @@ def check_manifests(plugin_dir: Path, report: Report) -> tuple[str | None, list[
             report.error(manifest, f"hooks file does not exist: {hooks_field}")
     if (plugin_dir / "hooks" / "hooks.json").is_file() and claude.is_file():
         data = load_json(claude, report)
-        if isinstance(data, dict) and data.get("hooks") != "./hooks/hooks.json":
-            report.error(claude, "plugin has hooks/hooks.json but the Claude Code manifest does not declare it")
+        hooks = data.get("hooks", []) if isinstance(data, dict) else []
+        entries = hooks if isinstance(hooks, list) else [hooks]
+        default = (plugin_dir / "hooks" / "hooks.json").resolve()
+        for entry in entries:
+            if isinstance(entry, str) and (plugin_dir / entry).resolve() == default:
+                report.error(claude, "hooks/hooks.json is loaded automatically; do not declare it in hooks")
     for required in ("README.md", "CHANGELOG.md"):
         if not (plugin_dir / required).is_file():
             report.error(plugin_dir, f"missing {required}")

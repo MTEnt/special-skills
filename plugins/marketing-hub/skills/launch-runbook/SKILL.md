@@ -1,9 +1,9 @@
 ---
 name: launch-runbook
-description: Plan and operate a product, feature, beta, early-access, or general-availability launch from readiness gate through post-launch adoption: launch brief, phase design, channel roles and asset map, launch-platform preparation, a timed run-of-show with owners and stop conditions, health monitoring, and correction. Use when preparing a public release; use press-kit for earned media and third-party-listings for store and directory presence.
+description: "Plan and operate a product, feature, beta, early-access, or general-availability launch from readiness gate through post-launch adoption: launch brief, phase design, channel roles and asset map, launch-platform preparation, a timed run-of-show with owners and stop conditions, health monitoring, and correction. Use when preparing a public release; use press-kit for earned media and third-party-listings for store and directory presence."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

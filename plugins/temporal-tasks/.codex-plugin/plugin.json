@@ -1,6 +1,6 @@
 {
   "name": "temporal-tasks",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Estimates task difficulty and active-work budgets, then emits deterministic elapsed-time and repeated-call signals from lifecycle hooks.",
   "author": {
     "name": "MTEnt"

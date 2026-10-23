@@ -1,9 +1,9 @@
 ---
 name: community-programs
-description: Design, launch, operate, grow, audit, or retire member-to-member programs: customer, practitioner, contributor, support, advocacy, forum, chat, and subreddit communities, including platform choice, norms, moderation, programming, roles, health metrics, and phase gates. Use for community-led growth and community operations; use organic-social for broadcast channels and creator-partnerships for paid or partnered voices.
+description: "Design, launch, operate, grow, audit, or retire member-to-member programs: customer, practitioner, contributor, support, advocacy, forum, chat, and subreddit communities, including platform choice, norms, moderation, programming, roles, health metrics, and phase gates. Use for community-led growth and community operations; use organic-social for broadcast channels and creator-partnerships for paid or partnered voices."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

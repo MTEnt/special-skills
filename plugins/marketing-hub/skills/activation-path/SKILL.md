@@ -1,9 +1,9 @@
 ---
 name: activation-path
-description: Design or repair the path from signup to experienced value: registration and identity flows, trial start, verification, first-run setup, empty states, checklists, templates, team invitation, stalled-user recovery, and the activation definition itself. Use when people fail to create accounts or create them and never reach value; use page-conversion for the marketing page before signup and retention-recovery once value has lapsed.
+description: "Design or repair the path from signup to experienced value: registration and identity flows, trial start, verification, first-run setup, empty states, checklists, templates, team invitation, stalled-user recovery, and the activation definition itself. Use when people fail to create accounts or create them and never reach value; use page-conversion for the marketing page before signup and retention-recovery once value has lapsed."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

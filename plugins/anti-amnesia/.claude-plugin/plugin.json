@@ -1,7 +1,7 @@
 {
   "name": "anti-amnesia",
   "displayName": "Anti Amnesia",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Answers retrospective questions from the recorded session and closes work with the shared handoff receipt.",
   "author": {
     "name": "MTEnt",
@@ -14,6 +14,5 @@
     "recall",
     "receipts",
     "coding-agents"
-  ],
-  "hooks": "./hooks/hooks.json"
+  ]
 }

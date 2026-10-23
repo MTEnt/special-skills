@@ -1,9 +1,9 @@
 ---
 name: content-engine
-description: Design the content system: content jobs, themes and clusters from customer and product evidence, format selection, prioritization, production-ready briefs, distribution and reuse, CMS content model, editorial governance, and freshness and retirement rules. Use when deciding what content should exist, why, and how it will be maintained; use page-copy or organic-social to produce individual pieces.
+description: "Design the content system: content jobs, themes and clusters from customer and product evidence, format selection, prioritization, production-ready briefs, distribution and reuse, CMS content model, editorial governance, and freshness and retirement rules. Use when deciding what content should exist, why, and how it will be maintained; use page-copy or organic-social to produce individual pieces."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

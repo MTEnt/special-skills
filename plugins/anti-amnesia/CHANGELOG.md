@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 - 2026-10-23
+
+- Remove the redundant Claude hook manifest reference; keep automatic hooks/hooks.json discovery.
+
 ## 0.2.0 - 2026-09-05
 
 - Embedded the shared handoff receipt from `contracts/handoff-receipt.md`; the closing receipt is now the same `RECEIPT` block that `cleancoding` writes and that later retrospective answers are read from.

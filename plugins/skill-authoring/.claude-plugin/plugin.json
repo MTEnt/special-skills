@@ -1,7 +1,7 @@
 {
   "name": "skill-authoring",
   "displayName": "Skill Authoring",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Writes and audits agent skills and plugins to this repository's standards, with a deterministic validator for frontmatter, size, links, manifests, and shared contracts.",
   "author": {
     "name": "MTEnt",

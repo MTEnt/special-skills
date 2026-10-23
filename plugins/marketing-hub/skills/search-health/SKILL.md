@@ -1,9 +1,9 @@
 ---
 name: search-health
-description: Audit and repair how a site is discovered, crawled, rendered, indexed, and navigated: technical and on-page SEO diagnosis, international setup, content quality signals, information architecture, page hierarchy, navigation, URL conventions, internal linking, visual sitemaps, and migrations. Use when rankings or organic traffic decline, pages are not indexed, or a site needs restructuring; use structured-data for JSON-LD and template-pages for scaled page systems.
+description: "Audit and repair how a site is discovered, crawled, rendered, indexed, and navigated: technical and on-page SEO diagnosis, international setup, content quality signals, information architecture, page hierarchy, navigation, URL conventions, internal linking, visual sitemaps, and migrations. Use when rankings or organic traffic decline, pages are not indexed, or a site needs restructuring; use structured-data for JSON-LD and template-pages for scaled page systems."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

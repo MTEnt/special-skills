@@ -1,9 +1,9 @@
 ---
 name: answer-engine-visibility
-description: Audit and improve whether AI-generated answers and answer engines can access, understand, cite, and accurately recommend the product: crawler and robots policy, entity clarity, citable source content, machine-readable knowledge assets, agent readiness, and repeatable monitoring of observed answers. Use for AI search, LLM visibility, and AI Overview questions; use search-health for classic crawl and index problems.
+description: "Audit and improve whether AI-generated answers and answer engines can access, understand, cite, and accurately recommend the product: crawler and robots policy, entity clarity, citable source content, machine-readable knowledge assets, agent readiness, and repeatable monitoring of observed answers. Use for AI search, LLM visibility, and AI Overview questions; use search-health for classic crawl and index problems."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 
