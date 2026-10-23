@@ -88,6 +88,25 @@ class ValidateRepoTests(unittest.TestCase):
         write_json(hooks, {"hooks": {"Stop": [{"hooks": [{"type": "command", "command": "python \"${CLAUDE_PLUGIN_ROOT}/hooks/missing.py\""}]}]}})
         self.assertTrue(any("hook script does not exist: hooks/missing.py" in e for e in self.errors()))
 
+    def test_default_hooks_are_discovered_without_manifest_entry(self) -> None:
+        write_json(self.root / "plugins/alpha/hooks/hooks.json", {"hooks": {}})
+        self.assertEqual(self.errors(), [])
+
+    def test_duplicate_default_hooks_are_rejected(self) -> None:
+        plugin = self.root / "plugins/alpha"
+        write_json(plugin / "hooks/hooks.json", {"hooks": {}})
+        for hooks in ("./hooks/hooks.json", "hooks/../hooks/hooks.json", ["./hooks/hooks.json"]):
+            with self.subTest(hooks=hooks):
+                write_json(plugin / ".claude-plugin/plugin.json", {"name": "alpha", "version": "1.0.0", "hooks": hooks})
+                self.assertTrue(any("loaded automatically" in e for e in self.errors()))
+
+    def test_additional_hooks_are_allowed(self) -> None:
+        plugin = self.root / "plugins/alpha"
+        write_json(plugin / "hooks/hooks.json", {"hooks": {}})
+        write_json(plugin / "hooks/extra.json", {"hooks": {}})
+        write_json(plugin / ".claude-plugin/plugin.json", {"name": "alpha", "version": "1.0.0", "hooks": "./hooks/extra.json"})
+        self.assertEqual(self.errors(), [])
+
     def test_generated_directories_are_rejected(self) -> None:
         (self.root / "plugins" / "alpha" / "__pycache__").mkdir()
         self.assertTrue(any("generated directory" in e for e in self.errors()))

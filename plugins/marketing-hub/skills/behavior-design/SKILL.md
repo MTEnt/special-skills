@@ -1,9 +1,9 @@
 ---
 name: behavior-design
-description: Explain a customer behavior or improve a choice environment with behavioral science: attention and comprehension, motivation and progress, perceived risk, choice architecture, social information, memory and brand, pricing perception, and diffusion. Use when a design decision needs a mechanism and a testable change rather than a channel or a page rewrite.
+description: "Explain a customer behavior or improve a choice environment with behavioral science: attention and comprehension, motivation and progress, perceived risk, choice architecture, social information, memory and brand, pricing perception, and diffusion. Use when a design decision needs a mechanism and a testable change rather than a channel or a page rewrite."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

@@ -1,9 +1,9 @@
 ---
 name: organic-social
-description: Plan, write, repurpose, schedule, review, and measure organic social content and social listening on professional, short-form, visual, and community networks: posts, threads, carousels, short-form scripts, calendars, engagement, brand monitoring, and reverse-engineering public patterns. Use for owned social presence; use ad-units for paid creative and community-programs for member-to-member spaces.
+description: "Plan, write, repurpose, schedule, review, and measure organic social content and social listening on professional, short-form, visual, and community networks: posts, threads, carousels, short-form scripts, calendars, engagement, brand monitoring, and reverse-engineering public patterns. Use for owned social presence; use ad-units for paid creative and community-programs for member-to-member spaces."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

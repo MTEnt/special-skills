@@ -1,9 +1,9 @@
 ---
 name: template-pages
-description: Plan, specify, build, audit, or scale search pages generated from structured data: location and service pages, integration and compatibility pages, comparison sets, use-case and role pages, glossaries, galleries, directories, and data explorers, each with a data contract, template contract, index rules, quality sampling, and bounded rollout. Use for programmatic SEO where every page can carry distinct utility; use search-health for site-wide diagnosis.
+description: "Plan, specify, build, audit, or scale search pages generated from structured data: location and service pages, integration and compatibility pages, comparison sets, use-case and role pages, glossaries, galleries, directories, and data explorers, each with a data contract, template contract, index rules, quality sampling, and bounded rollout. Use for programmatic SEO where every page can carry distinct utility; use search-health for site-wide diagnosis."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

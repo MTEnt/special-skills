@@ -12,7 +12,7 @@ Usage:
     python skill_lint.py path/to/skill
     python skill_lint.py --siblings path/to/skills-dir [--overlap-threshold 0.35]
 
-Standard library only. Exit 0 when there are no errors.
+Requires PyYAML (install ../requirements.txt). Exit 0 when there are no errors.
 """
 
 from __future__ import annotations
@@ -21,6 +21,8 @@ import argparse
 import re
 from pathlib import Path
 from typing import Any, Iterable
+
+import yaml
 
 NAME_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 SEMVER_PATTERN = re.compile(r"^\d+\.\d+\.\d+(?:[-+][0-9A-Za-z.-]+)?$")
@@ -58,52 +60,19 @@ def read_text(path: Path) -> str:
 
 
 def parse_frontmatter(text: str) -> tuple[dict[str, Any] | None, str]:
-    """Parse the small YAML subset used by SKILL.md files.
-
-    Supports `key: value`, `key: |` block scalars, and one level of nested mappings.
-    Returns (mapping, error) where error is a message when parsing fails.
-    """
+    """Parse frontmatter with a safe, standards-compliant YAML loader."""
     normalized = text.replace("\r\n", "\n")
     if not normalized.startswith("---\n"):
         return None, "must start with YAML frontmatter"
     end = normalized.find("\n---\n", 4)
     if end == -1:
         return None, "frontmatter is not closed"
-    body = normalized[4:end].split("\n")
-    result: dict[str, Any] = {}
-    index = 0
-    while index < len(body):
-        line = body[index]
-        if not line.strip():
-            index += 1
-            continue
-        if line.startswith(" "):
-            return None, f"unexpected indentation at frontmatter line {index + 1}"
-        if ":" not in line:
-            return None, f"cannot parse frontmatter line {index + 1}: {line!r}"
-        key, _, raw = line.partition(":")
-        key = key.strip()
-        raw = raw.strip()
-        if raw in {"|", ">", "|-", ">-"}:
-            block: list[str] = []
-            index += 1
-            while index < len(body) and (body[index].startswith("  ") or not body[index].strip()):
-                block.append(body[index].strip())
-                index += 1
-            result[key] = " ".join(part for part in block if part).strip()
-            continue
-        if raw == "":
-            nested: dict[str, str] = {}
-            index += 1
-            while index < len(body) and body[index].startswith("  "):
-                child = body[index].strip()
-                child_key, _, child_value = child.partition(":")
-                nested[child_key.strip()] = child_value.strip().strip('"').strip("'")
-                index += 1
-            result[key] = nested
-            continue
-        result[key] = raw.strip('"').strip("'")
-        index += 1
+    try:
+        result = yaml.safe_load(normalized[4:end])
+    except yaml.YAMLError as exc:
+        return None, f"invalid YAML frontmatter: {exc}"
+    if not isinstance(result, dict):
+        return None, "frontmatter must be a mapping"
     return result, ""
 
 

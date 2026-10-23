@@ -6,7 +6,7 @@
   },
   "description": "Original skills and plugins that make agent behavior more reliable, bounded, inspectable, and repeatable.",
   "metadata": {
-    "version": "2.0.1"
+    "version": "2.0.2"
   },
   "plugins": [
     {
@@ -14,7 +14,7 @@
       "source": "./plugins/cleancoding",
       "displayName": "Clean Coding",
       "description": "Evidence-backed engineering discipline: acceptance contracts, root-cause fixes, a hook-enforced verification gate, and the shared three-loop stop rule.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "category": "productivity",
       "keywords": [
         "engineering",
@@ -32,7 +32,7 @@
       "source": "./plugins/anti-loop",
       "displayName": "Anti Loop",
       "description": "Keeps coding work scoped to the requested outcome and enforces the shared three-loop stop rule with a stateful PostToolUse hook.",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "category": "productivity",
       "keywords": [
         "scope-control",
@@ -49,7 +49,7 @@
       "source": "./plugins/anti-amnesia",
       "displayName": "Anti Amnesia",
       "description": "Answers retrospective questions from the recorded session and closes work with the shared handoff receipt.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "category": "productivity",
       "keywords": [
         "recall",
@@ -66,7 +66,7 @@
       "source": "./plugins/temporal-tasks",
       "displayName": "Temporal Tasks",
       "description": "Estimates task difficulty and active-work budgets, then emits deterministic elapsed-time and repeated-call signals from lifecycle hooks.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "category": "productivity",
       "keywords": [
         "task-budgeting",
@@ -138,7 +138,7 @@
       "source": "./plugins/skill-authoring",
       "displayName": "Skill Authoring",
       "description": "Writes and audits agent skills and plugins to this repository's standards, with a deterministic validator for frontmatter, size, links, manifests, and shared contracts.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "category": "developer-tools",
       "keywords": [
         "skills",
@@ -156,7 +156,7 @@
       "source": "./plugins/untrusted-content",
       "displayName": "Untrusted Content",
       "description": "Handles web pages, files, tool output, and inter-agent messages as data rather than instructions, with injection triage and a bounded escalation path.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "category": "security",
       "keywords": [
         "security",
@@ -173,7 +173,7 @@
       "source": "./plugins/marketing-hub",
       "displayName": "Marketing Hub",
       "description": "An evidence-to-artifact marketing operating system: one orchestrator and forty-three specialist skills organized by the decision they answer, sharing a truth file, claim ledger, and deliverable contracts.",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "category": "marketing",
       "keywords": [
         "marketing",

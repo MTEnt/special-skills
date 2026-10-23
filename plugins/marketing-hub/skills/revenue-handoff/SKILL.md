@@ -1,9 +1,9 @@
 ---
 name: revenue-handoff
-description: Make the marketing-to-sales system observable and recoverable: lifecycle stage definitions, qualification criteria, lead and account scoring, routing and SLAs, pipeline stages, CRM automation contracts, deal desk rules, data hygiene, and forecasting inputs. Use for revenue operations and handoff failures; use outbound-prospecting for list building and sales-kit for seller-facing assets.
+description: "Make the marketing-to-sales system observable and recoverable: lifecycle stage definitions, qualification criteria, lead and account scoring, routing and SLAs, pipeline stages, CRM automation contracts, deal desk rules, data hygiene, and forecasting inputs. Use for revenue operations and handoff failures; use outbound-prospecting for list building and sales-kit for seller-facing assets."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

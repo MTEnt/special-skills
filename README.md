@@ -107,6 +107,7 @@ The full standard, with layout and cross-runtime hook conventions, is in [`skill
 ## Verify locally
 
 ```text
+python -m pip install -r plugins/skill-authoring/skills/skill-authoring/requirements.txt
 python scripts/validate_repo.py --strict-overlap
 python -m unittest discover -s scripts/tests
 for p in plugins/*/; do [ -d "$p/tests" ] && (cd "$p" && python -m unittest discover -s tests); done

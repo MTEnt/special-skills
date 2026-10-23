@@ -1,9 +1,9 @@
 ---
 name: marketing-os
-description: Orchestrate marketing work that spans more than one specialty: go-to-market systems, multi-channel campaigns, funnel diagnosis, or a request whose right first step is unclear. Runs the evidence-to-artifact loop (truth file, constraint, decision, artifact, measurement) and routes each step to the specialist skill that owns it. Use for broad or connected requests; hand a single narrow deliverable straight to its specialist.
+description: "Orchestrate marketing work that spans more than one specialty: go-to-market systems, multi-channel campaigns, funnel diagnosis, or a request whose right first step is unclear. Runs the evidence-to-artifact loop (truth file, constraint, decision, artifact, measurement) and routes each step to the specialist skill that owns it. Use for broad or connected requests; hand a single narrow deliverable straight to its specialist."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

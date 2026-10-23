@@ -1,9 +1,9 @@
 ---
 name: retention-recovery
-description: Diagnose and reduce voluntary and involuntary churn: cancellation flows, save offers matched to cause, pause and downgrade options, proactive churn-risk response, failed-payment recovery and dunning, win-back, and retention measurement with holdouts. Use when subscribers cancel, disengage, fail payment, or stop reaching recurring value; use activation-path when they never reached value in the first place.
+description: "Diagnose and reduce voluntary and involuntary churn: cancellation flows, save offers matched to cause, pause and downgrade options, proactive churn-risk response, failed-payment recovery and dunning, win-back, and retention measurement with holdouts. Use when subscribers cancel, disengage, fail payment, or stop reaching recurring value; use activation-path when they never reached value in the first place."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

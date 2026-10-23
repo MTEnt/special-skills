@@ -1,9 +1,9 @@
 ---
 name: paid-media
-description: Plan, build, audit, and optimize paid campaigns on search, social, video, professional, retargeting, and account-based platforms: channel choice, campaign architecture, audiences and queries, budget and bidding, conversion tracking gates, launch readiness, and continue-change-stop rules for a live account. Use for PPC, paid social, ROAS, CPA, payback, and account recommendations; use ad-units for the creative and credit-and-lift when platform numbers disagree.
+description: "Plan, build, audit, and optimize paid campaigns on search, social, video, professional, retargeting, and account-based platforms: channel choice, campaign architecture, audiences and queries, budget and bidding, conversion tracking gates, launch readiness, and continue-change-stop rules for a live account. Use for PPC, paid social, ROAS, CPA, payback, and account recommendations; use ad-units for the creative and credit-and-lift when platform numbers disagree."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

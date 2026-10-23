@@ -3,7 +3,7 @@ name: skill-authoring
 description: Write, restructure, or audit an agent skill or plugin so it is concise, correctly triggered, self-contained, versioned, and installable on Claude Code and Codex. Use when creating a SKILL.md, tightening a skill description, splitting an oversized skill into references, adding hooks or evals to a plugin, packaging a marketplace, or checking why a skill misroutes or fails validation.
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   author: MTEnt
 ---
 
@@ -19,7 +19,7 @@ A skill is a contract with a router and a reader. The router sees only `name` an
 4. Make the package self-contained: no links outside the skill directory, no dependence on sibling packages at runtime, every script standard-library or clearly documented.
 5. Declare version, license, side effects, permissions, and failure behavior in the package. Follow [package-standards.md](references/package-standards.md) for layout, manifests, and marketplaces.
 6. Enforce behavior in code when it matters: a rule that must hold under pressure belongs in a hook or a deterministic script, not only in prose. See [hooks-and-evals.md](references/hooks-and-evals.md).
-7. Run `python scripts/skill_lint.py <skill-dir>` before presenting the skill. Fix errors; treat warnings as review items.
+7. Install the linter dependency with `python -m pip install -r requirements.txt` from this skill directory, then run `python scripts/skill_lint.py <skill-dir>` before presenting the skill. Fix errors; treat warnings as review items.
 
 ## Audit an existing skill
 

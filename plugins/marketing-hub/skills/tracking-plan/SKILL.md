@@ -1,9 +1,9 @@
 ---
 name: tracking-plan
-description: Design, implement, audit, and debug marketing measurement: metric dictionary, provider-neutral event contract, identity model, consent handling, GA4 and tag-manager mapping, campaign-parameter governance, and validation across debug, collection, processing, and reporting layers. Use when measurement must be established or tracking looks wrong; use credit-and-lift when the question is which marketing deserves the credit.
+description: "Design, implement, audit, and debug marketing measurement: metric dictionary, provider-neutral event contract, identity model, consent handling, GA4 and tag-manager mapping, campaign-parameter governance, and validation across debug, collection, processing, and reporting layers. Use when measurement must be established or tracking looks wrong; use credit-and-lift when the question is which marketing deserves the credit."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

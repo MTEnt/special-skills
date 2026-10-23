@@ -3,7 +3,7 @@ name: task-clock
 description: "Estimate difficulty and active-work budgets for substantive multi-step work. Before tools, report `Task budget: SCORE/10 (CONFIDENCE) · expected RANGE · reassess after CHECKPOINT without progress.` Reassess when deterministic elapsed-time or repeated-call signals show the route may be stale. Skip casual conversation and trivial one-step answers."
 license: MIT
 metadata:
-  version: "0.2.0"
+  version: "0.2.1"
   author: MTEnt
 ---
 

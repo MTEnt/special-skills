@@ -1,9 +1,9 @@
 ---
 name: sales-kit
-description: Create and govern the evidence-backed material sellers and buying champions use at a specific decision stage: sales and pitch decks, one-pagers, objection libraries, battlecards, ROI and value tools, demo scripts, talk tracks, case briefs, proposals, playbooks, and buyer-role cards. Use when a sales moment needs an asset; use outbound-prospecting for finding and contacting prospects and revenue-handoff for pipeline operations.
+description: "Create and govern the evidence-backed material sellers and buying champions use at a specific decision stage: sales and pitch decks, one-pagers, objection libraries, battlecards, ROI and value tools, demo scripts, talk tracks, case briefs, proposals, playbooks, and buyer-role cards. Use when a sales moment needs an asset; use outbound-prospecting for finding and contacting prospects and revenue-handoff for pipeline operations."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

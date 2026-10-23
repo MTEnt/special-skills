@@ -1,9 +1,9 @@
 ---
 name: ad-units
-description: Concept, write, produce, batch, review, and iterate paid creative in platform-native formats: static, carousel, responsive search assets, short-form vertical video, motion, creator-led, and demo units, organized by concept ID with a bounded test matrix and a performance readout. Use for ad copy, hooks, creative strategy, production briefs, and creative fatigue; use paid-media for campaign structure, budgets, and account changes.
+description: "Concept, write, produce, batch, review, and iterate paid creative in platform-native formats: static, carousel, responsive search assets, short-form vertical video, motion, creator-led, and demo units, organized by concept ID with a bounded test matrix and a performance readout. Use for ad copy, hooks, creative strategy, production briefs, and creative fatigue; use paid-media for campaign structure, budgets, and account changes."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

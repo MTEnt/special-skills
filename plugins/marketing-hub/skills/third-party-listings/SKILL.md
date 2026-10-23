@@ -1,9 +1,9 @@
 ---
 name: third-party-listings
-description: Audit, write, and maintain the product's presence on discovery platforms the business does not own: Apple App Store and Google Play listings, metadata, screenshots and previews, ratings and reviews, and submissions to software, startup, AI and agent, review, local, and marketplace directories including launch-platform preparation. Use when store or directory presence needs improving; use launch-runbook for the launch itself.
+description: "Audit, write, and maintain the product's presence on discovery platforms the business does not own: Apple App Store and Google Play listings, metadata, screenshots and previews, ratings and reviews, and submissions to software, startup, AI and agent, review, local, and marketplace directories including launch-platform preparation. Use when store or directory presence needs improving; use launch-runbook for the launch itself."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

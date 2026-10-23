@@ -1,9 +1,9 @@
 ---
 name: creator-partnerships
-description: Research, vet, recruit, brief, contract, operate, and measure work with outside voices and organizations: influencers, creators, ambassadors, sponsorships, product seeding, paid UGC, and co-marketing campaigns such as joint research, webinars, guides, integration stories, bundles, and cross-promotion. Use for partner selection, deal structure, disclosure, rights, and creative briefs; use advocacy-loops for customer referral and affiliate mechanics.
+description: "Research, vet, recruit, brief, contract, operate, and measure work with outside voices and organizations: influencers, creators, ambassadors, sponsorships, product seeding, paid UGC, and co-marketing campaigns such as joint research, webinars, guides, integration stories, bundles, and cross-promotion. Use for partner selection, deal structure, disclosure, rights, and creative briefs; use advocacy-loops for customer referral and affiliate mechanics."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

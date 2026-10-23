@@ -22,8 +22,9 @@ Codex: `codex plugin marketplace add MTEnt/special-skills` then `codex plugin ad
 ## Use the linter directly
 
 ```text
+python -m pip install -r skills/skill-authoring/requirements.txt
 python skills/skill-authoring/scripts/skill_lint.py path/to/skill
 python skills/skill-authoring/scripts/skill_lint.py --siblings path/to/skills --strict-overlap
 ```
 
-The linter reads files only and has no dependencies beyond the Python standard library.
+The linter reads files only and uses PyYAML to validate frontmatter with a strict YAML parser.

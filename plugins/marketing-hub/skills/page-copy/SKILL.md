@@ -1,9 +1,9 @@
 ---
 name: page-copy
-description: Write or substantially rewrite persuasive copy for homepages, landing pages, pricing pages, feature and product pages, about pages, and campaign surfaces: value proposition, headline, message hierarchy, proof placement, objection handling, and CTA language in the brand's voice. Use when new copy or a full rewrite is needed; use copy-review for a bounded edit of existing copy and page-conversion when the problem is diagnosed conversion.
+description: "Write or substantially rewrite persuasive copy for homepages, landing pages, pricing pages, feature and product pages, about pages, and campaign surfaces: value proposition, headline, message hierarchy, proof placement, objection handling, and CTA language in the brand's voice. Use when new copy or a full rewrite is needed; use copy-review for a bounded edit of existing copy and page-conversion when the problem is diagnosed conversion."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

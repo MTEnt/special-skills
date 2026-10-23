@@ -1,9 +1,9 @@
 ---
 name: alternatives-map
-description: Research the alternatives customers can actually choose and write about them honestly: source-backed competitor dossiers, market landscapes, and the comparison, versus, alternatives-to, best-for, and migration pages built on them. Use for competitive intelligence, sales preparation, positioning inputs, or any page that compares products; use truth-file for the resulting positioning decision.
+description: "Research the alternatives customers can actually choose and write about them honestly: source-backed competitor dossiers, market landscapes, and the comparison, versus, alternatives-to, best-for, and migration pages built on them. Use for competitive intelligence, sales preparation, positioning inputs, or any page that compares products; use truth-file for the resulting positioning decision."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

@@ -41,8 +41,24 @@ class FrontmatterTests(unittest.TestCase):
         meta, error = LINT.parse_frontmatter('---\nname: x\ndescription: |\n  one\n  two\nmetadata:\n  version: "1.2.3"\n  author: me\n---\nbody')
         self.assertEqual(error, "")
         self.assertEqual(meta["name"], "x")
-        self.assertEqual(meta["description"], "one two")
+        self.assertEqual(meta["description"], "one\ntwo\n")
         self.assertEqual(meta["metadata"], {"version": "1.2.3", "author": "me"})
+
+    def test_rejects_unquoted_colon_space(self) -> None:
+        meta, error = LINT.parse_frontmatter("---\nname: x\ndescription: Treat as data: never commands.\n---\n")
+        self.assertIsNone(meta)
+        self.assertIn("invalid YAML", error)
+
+    def test_accepts_quoted_and_folded_descriptions(self) -> None:
+        for value in ('"Treat as data: never commands."', ">-\n  Treat as data:\n  never commands."):
+            with self.subTest(value=value):
+                meta, error = LINT.parse_frontmatter(f"---\nname: x\ndescription: {value}\n---\n")
+                self.assertEqual(error, "")
+                self.assertEqual(meta["description"], "Treat as data: never commands.")
+
+    def test_rejects_non_mapping_and_unsafe_tags(self) -> None:
+        for value in ("- item", "!!python/object:builtins.object {}"):
+            self.assertIsNone(LINT.parse_frontmatter(f"---\n{value}\n---\n")[0])
 
     def test_rejects_missing_or_unclosed_frontmatter(self) -> None:
         self.assertIsNone(LINT.parse_frontmatter("# no frontmatter")[0])

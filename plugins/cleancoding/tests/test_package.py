@@ -34,7 +34,7 @@ class PackageTests(unittest.TestCase):
         self.assertEqual(claude["name"], "cleancoding")
         self.assertEqual(codex["name"], "cleancoding")
         self.assertEqual(claude["version"], codex["version"])
-        self.assertEqual(claude["hooks"], "./hooks/hooks.json")
+        self.assertNotIn("hooks", claude)
 
     def test_skill_is_concise_and_routes_to_references(self) -> None:
         text = (SKILL / "SKILL.md").read_text(encoding="utf-8")

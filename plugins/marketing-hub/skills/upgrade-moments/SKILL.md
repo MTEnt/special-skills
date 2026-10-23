@@ -1,9 +1,9 @@
 ---
 name: upgrade-moments
-description: Design, audit, or optimize the in-product moments where an existing user is asked to begin or increase a paid commitment: paywalls, upgrade screens, feature gates, trial-expiry prompts, usage-limit messages, add-ons, and the purchase flow behind them. Use for free-to-paid and expansion conversion inside the product; use pricing-and-packaging to decide the plans and page-conversion for public pricing pages.
+description: "Design, audit, or optimize the in-product moments where an existing user is asked to begin or increase a paid commitment: paywalls, upgrade screens, feature gates, trial-expiry prompts, usage-limit messages, add-ons, and the purchase flow behind them. Use for free-to-paid and expansion conversion inside the product; use pricing-and-packaging to decide the plans and page-conversion for public pricing pages."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

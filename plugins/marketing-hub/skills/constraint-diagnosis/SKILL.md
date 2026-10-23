@@ -1,9 +1,9 @@
 ---
 name: constraint-diagnosis
-description: Locate the weakest evidenced transition in the customer journey before any tactic is chosen: audience access, qualification, comprehension, credibility, friction, activation, retention, economics, or measurement. Use when marketing is not working and the cause is unclear, when a plan or campaign is requested without a diagnosis, or when someone asks for more traffic; hand the chosen stage to its specialist afterwards.
+description: "Locate the weakest evidenced transition in the customer journey before any tactic is chosen: audience access, qualification, comprehension, credibility, friction, activation, retention, economics, or measurement. Use when marketing is not working and the cause is unclear, when a plan or campaign is requested without a diagnosis, or when someone asks for more traffic; hand the chosen stage to its specialist afterwards."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: MTEnt
 ---
 

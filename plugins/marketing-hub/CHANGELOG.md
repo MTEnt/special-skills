@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.2 - 2026-10-23
+
+- Quote skill descriptions for strict YAML compatibility.
+
 ## 2.0.1 - 2026-09-23
 
 - Updated repository links and installation instructions for the Special Skills marketplace (`special-skills`).
